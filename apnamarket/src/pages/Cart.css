@@ -1,0 +1,30 @@
+.cart-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.cart-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 100%;
+  color: #ffffff;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+}
+
+.cart-card h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.success-text {
+  color: #86efac;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
